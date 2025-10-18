@@ -1,0 +1,50 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+In Order to Access to the System
+
+  1. Install XAMPP Control Panel
+
+  2. To START "Apache" & "MySql"
+
+  3. Click "START"
+
+  4. Open "Command Prompt"
+
+  5. Type "php -S localhost:4000"
+
+  6. Then press "Enter" in your keyboard
+
+  7. Open "Chrome" to connect database
+
+  8. Type in URL "localhost/phpMyAdmin/"
+
+  9. Then Click the "Import" from the menubar
+
+  10. Then Under the menubar there is a button "Choose File" Click It
+
+  11. After browse the information from CD and choose the SQL file "library"
+
+  12. SELECT "Admin" "Student" folder
+
+  13. Go to the C:localdisk
+
+  14.Open "xampp" folder and then Open "htdocs"
+
+  15.After create a folder as "library"
+
+  16.Now you can COPY files from CD and PASTE inside the library folder
+
+  17.So now you can start accessing to the Chrome and type "localhost/index"
+
+  18. WELCOME TO THE WEBSITE
+  
+
+LOGIN DETAILS
+
+   Username: 28kingb
+
+   Password: 2801
+
+These are the major steps to be followed to be proper access towards my Library Management System
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
