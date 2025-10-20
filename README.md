@@ -1,19 +1,140 @@
-# ONLINE-LIBRARY-FOR-A-STATE-UNIVERSITY
-Borrowing books, returning books or viewing the available books at the Library of the Low State University is currently done manually. Online Library Management System supports to overcome the above-mentioned problems. This system would be used by members who may be students or professors of that University to check the availability of the books and borrow the books., The librarian can update the member details and the book lending details. Online Library Management System will include the following information;
-* The librarian, students and the professors can register and login to the system
-* Any of the above users can update their profile details including the password
-* The authorized users can reserve a book for 24hours
-* The authorized users can check book availability
-* The librarian can check the member status and update the lending details (If the book is for the lending)
-* The system allows the Librarian to create the books catalog, add/delete books and maintain the books catalog.
-* The librarian can update the book return details
-* The librarian can calculate the fne for the late returns if necessary
-* The users can search the books according to the categories (Novels, Frictons, etc.)
+# Lowa State University Library Management System 📚
 
-Programming Language used,
+> A full-stack **Web Application** built using **PHP**, **JavaScript**, and **MySQL**, developed as part of the *Web Application and Development* course.
 
-HTML, PHP, MYSQL
+---
 
-Application Tool used,
+## 🧩 Overview
 
-XAMPP, PHPMYADMIN, ATOM
+This project represents a **Library Management System** for *Lowa State University*, enabling efficient management of books, students, and admins through a web-based interface.
+
+It provides a multipage, branded website that supports **client-side** (HTML, CSS, JS) and **server-side** (PHP, MySQL) functionalities.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technologies Used |
+|-------|-------------------|
+| **Frontend** | HTML, CSS, JavaScript, Bootstrap |
+| **Backend** | PHP, MySQL |
+| **Web Server** | Apache (via XAMPP) |
+| **Database Tool** | phpMyAdmin |
+| **Testing Browsers** | Google Chrome, Microsoft Edge |
+
+---
+
+## 🧱 System Design
+
+### Entity-Relationship (ER) Diagram
+![ER Diagram](assets/er_diagram.png)
+
+### Data Flow Diagram (DFD)
+![DFD](assets/dfd_diagram.png)
+
+### Use Case Diagram
+![Use Case Diagram](assets/use_case.png)
+
+### Activity Diagrams
+![Activity Diagram 1](assets/activity_diagram_1.png)
+![Activity Diagram 2](assets/activity_diagram_2.png)
+
+### System Architecture
+![Architecture Diagram](assets/architecture.png)
+
+---
+
+## 💻 Implementation
+
+This web system includes both **Admin** and **Student** modules with distinct interfaces and privileges.
+
+### Home Page
+![Home Page](assets/home_page.png)
+
+### Book Page
+![Book Page](assets/book_page.png)
+
+### About Page
+![About Page](assets/about_page.png)
+
+### Contact Page
+![Contact Page](assets/contact_page.png)
+
+### Register Page
+![Register Page](assets/register_page.png)
+
+### Update Password Page
+![Update Password Page](assets/update_password.png)
+
+### Student Dashboard
+![Student Page](assets/student_page.png)
+
+### Admin Dashboard
+![Admin Page](assets/admin_page.png)
+
+---
+
+## 🗄️ Database Design
+
+The system database was developed using **phpMyAdmin** and normalized up to **3NF**.
+
+![Database Schema](assets/database.png)
+
+**Key Tables:**  
+- `admin` — stores librarian and staff credentials  
+- `student` — holds registered users  
+- `book` — maintains book details (title, author, stock, etc.)  
+- `issue_book` — manages borrowing transactions  
+- `fine` — calculates fines for overdue books  
+
+---
+
+## 🧪 Testing & Quality Assurance
+
+The system was tested across major browsers (Chrome, Edge) for UI and UX consistency.
+
+![Testing Screenshot](assets/testing.png)
+
+**Test types included:**  
+- Requirement testing  
+- Design testing  
+- Functionality testing (forms, search, CRUD operations)  
+
+---
+
+## 📆 Project Timeline (Gantt Chart)
+
+![Gantt Chart](assets/gantt_chart.png)
+
+---
+
+## 🧠 Challenges & Learnings
+
+During development, several challenges arose:  
+- Creating role-based (Admin/Student) dashboards using PHP sessions.  
+- Managing database CRUD operations securely.  
+- Designing responsive layouts with HTML/CSS/Bootstrap.  
+- Ensuring consistency across different browsers.  
+
+These challenges helped reinforce full-stack web development skills, from database normalization to UI design.
+
+---
+
+## 📚 References
+
+- Mozilla Developer Network (MDN) — HTML, CSS, JavaScript Documentation  
+- W3Schools — PHP & MySQL Integration  
+- XAMPP Documentation  
+- Bootstrap Official Docs  
+
+---
+
+## 💬 Author
+
+**Bilal Ahmad**  
+International Higher Diploma in Software Development  
+Berlin School of Business and Innovation (BSBI)  
+
+---
+
+> *“Technology is best when it brings people together.”* — Matt Mullenweg  
